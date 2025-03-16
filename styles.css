@@ -137,5 +137,34 @@ nav .nav-bar {
 }
 
 .boxes .box p {
-    text-align: justify;
+    text-align: center;
 }
+
+.box img {
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.quote {
+    height: 300px;
+    padding: 25px;
+    margin: 40px 0;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.quote p {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote p:nth-child(2) {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
