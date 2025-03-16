@@ -168,3 +168,36 @@ nav .nav-bar {
     align-self: flex-end;
 }
 
+.sign-up {
+    margin: 50px auto;
+    padding: 20px;
+    height: 100px;
+    width: 800px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up .sign-up-message{
+    color: #E5E7EB;
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-up-message div {
+    font-weight: 900;
+}
+
+.sign-up-message p {
+    font-size: 13px;
+}
+
+.sign-up div button {
+    padding: 5px;
+    background: transparent;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    color: #E5E7EB;
+    font-size: 13px;
+}
