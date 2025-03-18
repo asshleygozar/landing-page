@@ -9,18 +9,20 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 body {
     display: flex;
     margin: 0;
-    flex-direction: column;    
+    justify-content: center;
+    align-items: center;   
 }
 
 .content {
     display: flex;
     flex-direction: column;
-   
+    width: ;
     flex: 1;
 }
 
