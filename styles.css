@@ -9,13 +9,15 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 body {
     display: flex;
-    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;   
 }
-
 
 .content {
     display: flex;
@@ -38,20 +40,9 @@ nav .nav-bar {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border: 2px solid blue;
-}
-
-nav > .nav-bar {
-    max-width: 70em;
-    min-width: 70em;
-    margin: 0 auto;  
-}
-
-.main-page > .introduction {
     max-width: 70em;
     margin: 0 auto;
 }
-
 
 .main-logo {
     font-family: "Roboto", sans-serif;
@@ -83,14 +74,16 @@ nav > .nav-bar {
     padding: 20px;
     margin: 0;
     min-height: 530px;
-    min-width: 70em;
     justify-content: space-around;
     align-items: center;
-    flex-direction: 1;
+    max-width: 70em;
+    width: 100%;
+    margin: 0 auto;
 }
 .introduction .header {
     height: 230px;
     max-width: 500px;
+    margin: 0 auto;
     flex: 1;
 }
 .introduction .header h1,
@@ -127,6 +120,7 @@ nav > .nav-bar {
 .introduction img {
     height: 300px;
     width: 300px;
+    margin: 0 auto;
 }
 
 .second-page .second-page-header {
@@ -259,7 +253,6 @@ footer div {
         text-align: center;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
     }
 
     .introduction .header button {
