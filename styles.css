@@ -13,15 +13,13 @@
 
 body {
     display: flex;
-    margin: 0;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 
 .content {
     display: flex;
     flex-direction: column;
-   
     flex: 1;
 }
 
