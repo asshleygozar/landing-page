@@ -129,7 +129,11 @@ nav .nav-bar {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 900;
-    color:#1F2937
+    color:#1F2937;
+    max-width: 39em;
+    width: 100%;
+    margin: 0 auto;
+    
 }
 
 .second-page .boxes {
@@ -137,6 +141,9 @@ nav .nav-bar {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 70em;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .boxes .box {
@@ -180,6 +187,10 @@ nav .nav-bar {
     font-size: 36px;
     color: #1F2937;
     min-width: 0;
+    max-width: 39em;
+    width: 100%;
+    margin: 0 auto;
+    overflow-wrap: break-word;
 }
 
 .quote p:nth-child(2) {
